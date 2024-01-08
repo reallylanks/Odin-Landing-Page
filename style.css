@@ -5,9 +5,11 @@
 body {
     display: flex;
     flex-direction: column;
-    /* For my notes: Some browsers add a default margin. Simply set margin: 0 to fix */
+    /*  Some browsers add a default margin. Set margin: 0 to fix */
     margin: 0;
 }
+
+/* HEADER STYLES */
 
 .header {
     display: flex;
@@ -69,9 +71,94 @@ button {
     border: 1px solid #3882F6;
     color: white;
   }
+  
+  /* Section 2 STYLES: "Some info"*/
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9FaF8;
+    padding-bottom: 80px;
+  }
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    padding: 60px;
+  }
+
+.info-imgs {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 30px;
+  }
+
+  /* Descendant combinator */
+.info-imgs img {
+    /* To add rounded corners, use the border radius property */
+    border-radius: 25px;
+    border: 3px solid #3882F6;
+  }
+
+.info .text {
+    width: 230px;
+    color:  #c2c3c7;
+  }
+
+  /* QUOTE STYLES */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 120px;
+  }
+
+.text-1 {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    width: 775px;
+    padding-bottom: 20px;
+}
+
+.text-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 16px;
+    font-weight: bolder;
+    width: 775px;
+}
+
+/* CALL TO ACTION */
+
+.call-to-action {
+    display: flex;
+    background-color: #f9FaF8;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cta-container {
+    display: flex;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
+
+
+
 
   
  
-  
-
-
