@@ -31,6 +31,16 @@ body {
     color: #c2c3c7;
 }
 
+.links {
+    display: flex;
+    gap: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -53,7 +63,8 @@ ul {
     font-size: 48px;
     color: #f9FaF8;
     font-weight: bolder;
-    width: 350px;
+    width: 375px;
+    padding-bottom: 10px;
 }
 
 .hero-secondary {
@@ -135,7 +146,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bolder;
     width: 775px;
 }
@@ -190,7 +201,7 @@ ul {
     font-weight: 600;
 }
 
-/*Footer Styles */
+/* Footer Styles */
 
 .footer {
     display: flex;
