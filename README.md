@@ -1,2 +1,2 @@
 # Odin-Landing-Page
-Odin Project #2 
+Landing page for a skiing slope company
